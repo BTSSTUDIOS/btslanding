@@ -170,6 +170,100 @@
   color: #fff;
 }
 
+/* CONNECT WALLET COMING SOON MODAL OVERLAY */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.2s ease forwards;
+}
+
+.modalContent {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  background: rgba(14, 10, 28, 0.95);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.8), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.modalCloseBtn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.modalHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.modalBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: #F7D723;
+  background: rgba(247, 215, 35, 0.15);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.modalTitle {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.modalBody {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
