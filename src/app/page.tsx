@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Film, Play, Sparkles, ArrowRight, ShieldCheck, Cpu, Tv, Clapperboard, Globe2, Flame, ExternalLink, Terminal, CheckCircle2, Coins, Layers, Star } from 'lucide-react';
+import { Film, Play, Sparkles, ArrowRight, ShieldCheck, Cpu, Tv, Clapperboard, Globe2, Flame, ExternalLink, Terminal, CheckCircle2, Coins, Layers, Star, Bot } from 'lucide-react';
 import { getAllPosts } from '@/lib/blog';
 import NewsletterForm from '@/components/NewsletterForm';
 import TwitterFeed from '@/components/TwitterFeed';
@@ -31,19 +31,21 @@ export default function HomePage() {
           </p>
 
           <div className={styles.heroCtas}>
-            {/* 1ST PRIMARY FEATURED CTA: https://gulp.wtf/ */}
+            {/* 1ST HERO CTA: LAUNCH GULP */}
             <a href="https://gulp.wtf/" target="_blank" rel="noopener noreferrer" className="btn-canvas-neon">
               <Play size={16} fill="#fff" />
-              <span>Launch GULP Stream (gulp.wtf)</span>
+              <span>LAUNCH GULP</span>
               <ExternalLink size={14} />
             </a>
 
-            {/* 2ND FEATURED CTA: https://app.bts.network/ */}
+            {/* 2ND HERO CTA: BITCOIN A.I APP */}
             <a href="https://app.bts.network/" target="_blank" rel="noopener noreferrer" className="btn-canvas-primary">
-              <span>BTS App (app.bts.network)</span>
+              <Bot size={16} color="#00D1FF" />
+              <span>BITCOIN A.I APP</span>
               <ExternalLink size={14} />
             </a>
 
+            {/* 3RD HERO CTA: BTS CHAIN */}
             <Link href="/tokens" className="btn-canvas-secondary">
               <span>BTS Chain ($BTS)</span>
               <ArrowRight size={16} />
@@ -166,9 +168,9 @@ export default function HomePage() {
               <div className={styles.cardHeader}>
                 <span className="mono-label" style={{ color: '#00D1FF' }}>STUDIO APP</span>
               </div>
-              <h3 className={styles.cardTitle}>BTS Network App</h3>
+              <h3 className={styles.cardTitle}>BITCOIN A.I APP</h3>
               <p className={styles.cardDesc}>
-                The primary decentralized Web3 portal and application hub for BTS Studios.
+                The primary decentralized Web3 portal and AI application hub for BTS Studios.
               </p>
               <a href="https://app.bts.network/" target="_blank" rel="noopener noreferrer" className={styles.cardLink} style={{ color: '#00D1FF' }}>
                 Open app.bts.network <ExternalLink size={14} />
