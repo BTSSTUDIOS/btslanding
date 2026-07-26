@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--border-color);
+  border-radius: 50px;
+  padding: 14px 24px;
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: var(--primary-neon);
+}
+
+.successMsg {
+  background: rgba(31, 219, 0, 0.12);
+  border: 1px solid var(--primary-neon);
+  color: var(--primary-neon);
+  padding: 14px 24px;
+  border-radius: 50px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+}

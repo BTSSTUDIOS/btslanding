@@ -1,0 +1,161 @@
+.feedWrapper {
+  background: rgba(14, 10, 26, 0.65);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15), 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.12);
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.headerTitle h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.xLogo {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.tweetsList {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.tweetCard {
+  background: rgba(22, 16, 40, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.latestCard {
+  background: rgba(26, 18, 48, 0.85);
+  border-color: rgba(168, 85, 247, 0.4);
+  box-shadow: 0 6px 24px rgba(139, 92, 246, 0.15);
+}
+
+.tweetCard:hover {
+  border-color: rgba(168, 85, 247, 0.5);
+  transform: translateY(-2px);
+  background: rgba(30, 22, 54, 0.9);
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);
+}
+
+.pinnedLabel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: #a855f7;
+  font-weight: 600;
+  margin-bottom: -4px;
+}
+
+.tweetHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.authorTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.authorName {
+  font-weight: 800;
+  font-size: 0.92rem;
+  color: #fff;
+}
+
+.verifiedBadge {
+  color: #1d9bf0;
+  font-weight: 900;
+  font-size: 0.85rem;
+}
+
+.authorHandle {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+  margin-top: 2px;
+}
+
+.miniXLogo {
+  width: 15px;
+  height: 15px;
+  color: var(--text-subtle);
+}
+
+.tweetText {
+  font-size: 0.92rem;
+  color: #FAFAFA;
+  line-height: 1.5;
+}
+
+.tweetText p {
+  margin: 0;
+}
+
+.tweetImageWrapper {
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 4px;
+}
+
+.tweetStats {
+  font-size: 0.76rem;
+  color: var(--text-subtle);
+  font-family: var(--font-mono);
+  padding-top: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+}
+
+.tweetActions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

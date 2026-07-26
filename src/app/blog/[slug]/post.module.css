@@ -1,0 +1,147 @@
+.articleContainer {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 100px;
+}
+
+.backNav {
+  margin-bottom: 30px;
+}
+
+.backBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.backBtn:hover {
+  color: var(--primary-neon);
+  transform: translateX(-4px);
+}
+
+.header {
+  margin-bottom: 36px;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-subtle);
+}
+
+.categoryBadge {
+  background: rgba(31, 219, 0, 0.12);
+  color: var(--primary-neon);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.excerpt {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.featuredImgWrapper {
+  margin-bottom: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.contentBody {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e2e2e8;
+}
+
+.contentBody h1,
+.contentBody h2,
+.contentBody h3,
+.contentBody h4 {
+  font-family: var(--font-heading);
+  color: #fff;
+  margin: 36px 0 16px;
+}
+
+.contentBody h2 {
+  font-size: 1.8rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+.contentBody h3 {
+  font-size: 1.4rem;
+}
+
+.contentBody p {
+  margin-bottom: 24px;
+}
+
+.contentBody a {
+  color: var(--primary-neon);
+  text-decoration: underline;
+}
+
+.contentBody img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 24px 0;
+  border: 1px solid var(--border-color);
+}
+
+.contentBody blockquote {
+  border-left: 4px solid var(--primary-neon);
+  padding: 16px 24px;
+  background: rgba(31, 219, 0, 0.04);
+  border-radius: 0 12px 12px 0;
+  margin: 24px 0;
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+}
+
+.tagsRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tagChip {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 12px;
+  border-radius: 20px;
+}

@@ -1,0 +1,78 @@
+{
+  "superposition": [
+    "/images/films/superposition/slide-01.jpg",
+    "/images/films/superposition/slide-02.jpg",
+    "/images/films/superposition/slide-03.jpg",
+    "/images/films/superposition/slide-04.jpg",
+    "/images/films/superposition/slide-05.jpg",
+    "/images/films/superposition/slide-06.jpg",
+    "/images/films/superposition/slide-07.jpg",
+    "/images/films/superposition/slide-08.jpg",
+    "/images/films/superposition/slide-09.jpg",
+    "/images/films/superposition/slide-10.jpg",
+    "/images/films/superposition/slide-11.jpg",
+    "/images/films/superposition/slide-12.jpg",
+    "/images/films/superposition/slide-13.jpg",
+    "/images/films/superposition/slide-14.jpg",
+    "/images/films/superposition/slide-15.jpg",
+    "/images/films/superposition/slide-16.jpg",
+    "/images/films/superposition/slide-17.jpg"
+  ],
+  "drdredd": [
+    "/images/films/drdredd/slide-01.jpg",
+    "/images/films/drdredd/slide-02.jpg",
+    "/images/films/drdredd/slide-03.jpg",
+    "/images/films/drdredd/slide-04.jpg",
+    "/images/films/drdredd/slide-05.jpg",
+    "/images/films/drdredd/slide-06.jpg",
+    "/images/films/drdredd/slide-07.jpg",
+    "/images/films/drdredd/slide-08.jpg",
+    "/images/films/drdredd/slide-09.jpg"
+  ],
+  "eventhelosers": [
+    "/images/films/eventhelosers/slide-01.jpg",
+    "/images/films/eventhelosers/slide-02.jpg",
+    "/images/films/eventhelosers/slide-03.jpg",
+    "/images/films/eventhelosers/slide-04.jpg",
+    "/images/films/eventhelosers/slide-05.jpg",
+    "/images/films/eventhelosers/slide-06.jpg",
+    "/images/films/eventhelosers/slide-07.jpg"
+  ],
+  "nostress": [
+    "/images/films/nostress/slide-01.jpg",
+    "/images/films/nostress/slide-02.jpg",
+    "/images/films/nostress/slide-03.jpg",
+    "/images/films/nostress/slide-04.jpg"
+  ],
+  "flatwoods": [
+    "/images/films/flatwoods/slide-01.jpg",
+    "/images/films/flatwoods/slide-02.jpg",
+    "/images/films/flatwoods/slide-03.jpg",
+    "/images/films/flatwoods/slide-04.jpg",
+    "/images/films/flatwoods/slide-05.jpg",
+    "/images/films/flatwoods/slide-06.jpg",
+    "/images/films/flatwoods/slide-07.jpg",
+    "/images/films/flatwoods/slide-08.jpg",
+    "/images/films/flatwoods/slide-09.jpg",
+    "/images/films/flatwoods/slide-10.jpg",
+    "/images/films/flatwoods/slide-11.jpg",
+    "/images/films/flatwoods/slide-12.jpg",
+    "/images/films/flatwoods/slide-13.jpg",
+    "/images/films/flatwoods/slide-14.jpg",
+    "/images/films/flatwoods/slide-15.jpg",
+    "/images/films/flatwoods/slide-16.jpg",
+    "/images/films/flatwoods/slide-17.jpg",
+    "/images/films/flatwoods/slide-18.jpg"
+  ],
+  "thegodshatekansas": [
+    "/images/films/thegodshatekansas/slide-01.jpg",
+    "/images/films/thegodshatekansas/slide-02.jpg",
+    "/images/films/thegodshatekansas/slide-03.jpg",
+    "/images/films/thegodshatekansas/slide-04.jpg",
+    "/images/films/thegodshatekansas/slide-05.jpg",
+    "/images/films/thegodshatekansas/slide-06.jpg",
+    "/images/films/thegodshatekansas/slide-07.jpg",
+    "/images/films/thegodshatekansas/slide-08.jpg",
+    "/images/films/thegodshatekansas/slide-09.jpg"
+  ]
+}
