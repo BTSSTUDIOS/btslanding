@@ -594,3 +594,102 @@
     height: 340px;
   }
 }
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 50px 16px 40px;
+  }
+  .statusBadge {
+    padding: 6px 12px;
+    font-size: 0.7rem;
+    margin-bottom: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .heroTitle {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    line-height: 1.15;
+    margin-bottom: 14px;
+    word-break: break-word;
+  }
+  .heroSub {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-bottom: 22px;
+  }
+  .heroCtas {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .heroCtas a,
+  .heroCtas button {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 18px;
+    font-size: 0.9rem;
+  }
+  .spotlightHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 14px;
+  }
+  .spotlightBadgeGroup {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .qualityTag {
+    font-size: 0.65rem;
+    padding: 2px 6px;
+  }
+  .spotlightPosterArea {
+    height: auto;
+    min-height: 360px;
+  }
+  .posterOverlay {
+    padding: 16px;
+    gap: 12px;
+  }
+  .movieTitle {
+    font-size: 1.35rem;
+  }
+  .movieMeta {
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+  .playTrailerBtn {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 16px;
+    font-size: 0.84rem;
+  }
+  .spotlightFooter {
+    padding: 14px 16px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 36px 12px 32px;
+  }
+  .proofStrip {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 12px;
+    margin-bottom: 24px;
+  }
+  .proofIcon {
+    width: 32px;
+    height: 32px;
+    font-size: 1.05rem;
+  }
+  .proofText strong {
+    font-size: 0.8rem;
+  }
+  .proofText span {
+    font-size: 0.68rem;
+  }
+}
