@@ -19,17 +19,17 @@ export default function HomePage() {
           <div className={styles.statusBadge}>
             <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 10px #22c55e', display: 'inline-block' }}></span>
             <span className="mono-label" style={{ color: '#fff', fontSize: '0.78rem' }}>
-              WORLD&apos;S #1 ON-CHAIN FILM STUDIO & STREAMING PLATFORM
+              WORLD&apos;S FIRST • MOVIE STREAMING PLATFORM &amp; STUDIO • BITCOIN &amp; A.I
             </span>
           </div>
 
           <h1 className={styles.heroTitle}>
             The World&apos;s First Decentralized Film Studio.<br />
-            <span className={styles.highlight}>Live On Bitcoin. With Receipts. 🧾</span>
+            <span className={styles.highlight}>Powered By Bitcoin &amp; A.I. With Receipts. 🧾</span>
           </h1>
 
           <p className={styles.heroSub}>
-            Hollywood rewritten without gatekeepers or empty promises. Powered by the Bitcoin Meta-Protocol, fan-controlled film production, and decentralized streaming.
+            We are the world&apos;s first movie streaming platform &amp; studio powered by <strong>Bitcoin</strong> and <strong>A.I</strong> — live streaming now at <strong>gulp.wtf</strong> with 100% fan-controlled film production.
           </p>
 
           {/* CLEVER ON-CHAIN RECEIPTS & FIRSTS PROOF STRIP */}
@@ -47,8 +47,18 @@ export default function HomePage() {
             <div className={styles.proofItem}>
               <div className={styles.proofIcon}>⚡</div>
               <div className={styles.proofText}>
-                <strong>Deployed On Bitcoin</strong>
+                <strong>Powered By Bitcoin</strong>
                 <span>Verified On-Chain Receipts 🧾</span>
+              </div>
+            </div>
+
+            <div className={styles.proofDivider} />
+
+            <div className={styles.proofItem}>
+              <div className={styles.proofIcon}>🤖</div>
+              <div className={styles.proofText}>
+                <strong>Bitcoin A.I App</strong>
+                <span>Live at app.bts.network</span>
               </div>
             </div>
 
@@ -57,18 +67,8 @@ export default function HomePage() {
             <div className={styles.proofItem}>
               <div className={styles.proofIcon}>🍿</div>
               <div className={styles.proofText}>
-                <strong>Decentralized VOD</strong>
-                <span>Live Streaming at gulp.wtf</span>
-              </div>
-            </div>
-
-            <div className={styles.proofDivider} />
-
-            <div className={styles.proofItem}>
-              <div className={styles.proofIcon}>🗳️</div>
-              <div className={styles.proofText}>
-                <strong>100% Fan Controlled</strong>
-                <span>Zero Hollywood Middlemen</span>
+                <strong>Movie Streaming</strong>
+                <span>Live at gulp.wtf</span>
               </div>
             </div>
           </div>
