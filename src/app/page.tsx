@@ -18,16 +18,17 @@ export default function HomePage() {
         <div className={styles.heroContainer}>
           <div className={styles.statusBadge}>
             <Clapperboard size={14} color="#a855f7" />
-            <span className="mono-label" style={{ color: '#fff', fontSize: '0.78rem' }}>GULP.WTF & APP.BTS.NETWORK • HOLLYWOOD REVOLUTION</span>
+            <span className="mono-label" style={{ color: '#fff', fontSize: '0.78rem' }}>🏆 WORLD&apos;S FIRST • DECENTRALIZED FILM STUDIO • DEPLOYED ON BITCOIN</span>
           </div>
 
           <h1 className={styles.heroTitle}>
-            The Future of Web3 Cinema, <br />
-            <span className={styles.highlight}>In A New Dimension.</span>
+            The World&apos;s First Decentralized<br />
+            Film Studio & Streaming Platform.<br />
+            <span className={styles.highlight}>Built On Bitcoin. With Receipts. 🧾</span>
           </h1>
 
           <p className={styles.heroSub}>
-            BTS Studios rewrites Hollywood with decentralized video-on-demand at <strong>gulp.wtf</strong>, Bitcoin Meta-Protocol & fan-controlled film production.
+            BTS Studios is the <strong>first production studio in history</strong> to deploy on the Bitcoin blockchain — powering decentralized movie streaming at <strong>gulp.wtf</strong>, AI-driven tools at <strong>app.bts.network</strong>, and 100% fan-controlled film production. Not a whitepaper. Not a promise. <strong>Live. Now. Streaming.</strong>
           </p>
 
           <div className={styles.heroCtas}>
