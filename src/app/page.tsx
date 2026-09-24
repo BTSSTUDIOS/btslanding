@@ -19,59 +19,22 @@ export default function HomePage() {
           <div className={styles.statusBadge}>
             <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 10px #22c55e', display: 'inline-block' }}></span>
             <span className="mono-label" style={{ color: '#fff', fontSize: '0.78rem' }}>
-              WORLD&apos;S FIRST • MOVIE STREAMING PLATFORM &amp; STUDIO • BITCOIN &amp; A.I
+              FIRST IN HISTORY • LIVE ON BITCOIN
             </span>
           </div>
 
+          <div className={styles.brandKicker}>
+            BTS STUDIOS
+          </div>
+
           <h1 className={styles.heroTitle}>
-            The World&apos;s First Decentralized Film Studio.<br />
-            <span className={styles.highlight}>Powered By Bitcoin &amp; A.I. With Receipts. 🧾</span>
+            The World&apos;s First Decentralized<br />
+            <span className={styles.highlight}>Movie Studio &amp; Streaming Platform.</span>
           </h1>
 
           <p className={styles.heroSub}>
-            We are the world&apos;s first movie streaming platform &amp; studio powered by <strong>Bitcoin</strong> and <strong>A.I</strong> — live streaming now at <strong>gulp.wtf</strong> with 100% fan-controlled film production.
+            Powered by Bitcoin &amp; A.I. Built with receipts. 🧾
           </p>
-
-          {/* CLEVER ON-CHAIN RECEIPTS & FIRSTS PROOF STRIP */}
-          <div className={styles.proofStrip}>
-            <div className={styles.proofItem}>
-              <div className={styles.proofIcon}>🏆</div>
-              <div className={styles.proofText}>
-                <strong>World&apos;s 1st Studio</strong>
-                <span>Decentralized Cinema</span>
-              </div>
-            </div>
-
-            <div className={styles.proofDivider} />
-
-            <div className={styles.proofItem}>
-              <div className={styles.proofIcon}>⚡</div>
-              <div className={styles.proofText}>
-                <strong>Powered By Bitcoin</strong>
-                <span>Verified On-Chain Receipts 🧾</span>
-              </div>
-            </div>
-
-            <div className={styles.proofDivider} />
-
-            <div className={styles.proofItem}>
-              <div className={styles.proofIcon}>🤖</div>
-              <div className={styles.proofText}>
-                <strong>Bitcoin A.I App</strong>
-                <span>Live at app.bts.network</span>
-              </div>
-            </div>
-
-            <div className={styles.proofDivider} />
-
-            <div className={styles.proofItem}>
-              <div className={styles.proofIcon}>🍿</div>
-              <div className={styles.proofText}>
-                <strong>Movie Streaming</strong>
-                <span>Live at gulp.wtf</span>
-              </div>
-            </div>
-          </div>
 
           <div className={styles.heroCtas}>
             {/* 1ST HERO CTA: LAUNCH GULP */}
