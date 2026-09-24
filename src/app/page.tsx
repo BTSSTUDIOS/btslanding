@@ -24,7 +24,7 @@ export default function HomePage() {
           </div>
 
           <h1 className={styles.heroTitle}>
-            The World&apos;s First Decentralized Cinema.<br />
+            The World&apos;s First Decentralized Film Studio.<br />
             <span className={styles.highlight}>Live On Bitcoin. With Receipts. 🧾</span>
           </h1>
 
