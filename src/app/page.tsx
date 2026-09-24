@@ -17,19 +17,61 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles.heroContainer}>
           <div className={styles.statusBadge}>
-            <Clapperboard size={14} color="#a855f7" />
-            <span className="mono-label" style={{ color: '#fff', fontSize: '0.78rem' }}>🏆 WORLD&apos;S FIRST • DECENTRALIZED FILM STUDIO • DEPLOYED ON BITCOIN</span>
+            <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 10px #22c55e', display: 'inline-block' }}></span>
+            <span className="mono-label" style={{ color: '#fff', fontSize: '0.78rem' }}>
+              WORLD&apos;S #1 ON-CHAIN FILM STUDIO & STREAMING PLATFORM
+            </span>
           </div>
 
           <h1 className={styles.heroTitle}>
-            The World&apos;s First Decentralized<br />
-            Film Studio & Streaming Platform.<br />
-            <span className={styles.highlight}>Built On Bitcoin. With Receipts. 🧾</span>
+            The World&apos;s First Decentralized Cinema.<br />
+            <span className={styles.highlight}>Live On Bitcoin. With Receipts. 🧾</span>
           </h1>
 
           <p className={styles.heroSub}>
-            BTS Studios is the <strong>first production studio in history</strong> to deploy on the Bitcoin blockchain — powering decentralized movie streaming at <strong>gulp.wtf</strong>, AI-driven tools at <strong>app.bts.network</strong>, and 100% fan-controlled film production. Not a whitepaper. Not a promise. <strong>Live. Now. Streaming.</strong>
+            Hollywood rewritten without gatekeepers or empty promises. Powered by the Bitcoin Meta-Protocol, fan-controlled film production, and decentralized streaming.
           </p>
+
+          {/* CLEVER ON-CHAIN RECEIPTS & FIRSTS PROOF STRIP */}
+          <div className={styles.proofStrip}>
+            <div className={styles.proofItem}>
+              <div className={styles.proofIcon}>🏆</div>
+              <div className={styles.proofText}>
+                <strong>World&apos;s 1st Studio</strong>
+                <span>Decentralized Cinema</span>
+              </div>
+            </div>
+
+            <div className={styles.proofDivider} />
+
+            <div className={styles.proofItem}>
+              <div className={styles.proofIcon}>⚡</div>
+              <div className={styles.proofText}>
+                <strong>Deployed On Bitcoin</strong>
+                <span>Verified On-Chain Receipts 🧾</span>
+              </div>
+            </div>
+
+            <div className={styles.proofDivider} />
+
+            <div className={styles.proofItem}>
+              <div className={styles.proofIcon}>🍿</div>
+              <div className={styles.proofText}>
+                <strong>Decentralized VOD</strong>
+                <span>Live Streaming at gulp.wtf</span>
+              </div>
+            </div>
+
+            <div className={styles.proofDivider} />
+
+            <div className={styles.proofItem}>
+              <div className={styles.proofIcon}>🗳️</div>
+              <div className={styles.proofText}>
+                <strong>100% Fan Controlled</strong>
+                <span>Zero Hollywood Middlemen</span>
+              </div>
+            </div>
+          </div>
 
           <div className={styles.heroCtas}>
             {/* 1ST HERO CTA: LAUNCH GULP */}

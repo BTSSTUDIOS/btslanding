@@ -70,6 +70,97 @@
   margin-bottom: 45px;
 }
 
+/* CLEVER ON-CHAIN RECEIPTS PROOF STRIP */
+.proofStrip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 12px 24px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  margin-bottom: 32px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.45), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  max-width: 920px;
+  width: 100%;
+}
+
+.proofItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.proofIcon {
+  font-size: 1.25rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.proofText {
+  display: flex;
+  flex-direction: column;
+}
+
+.proofText strong {
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.proofText span {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono, monospace);
+  white-space: nowrap;
+}
+
+.proofDivider {
+  width: 1px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+@media (max-width: 860px) {
+  .proofStrip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    padding: 16px;
+  }
+  .proofDivider {
+    display: none;
+  }
+  .proofItem {
+    justify-content: flex-start;
+  }
+  .proofText strong,
+  .proofText span {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 480px) {
+  .proofStrip {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* CINEMA SPOTLIGHT SHOWCASE CARD */
 .cinemaSpotlightCard {
   width: 100%;
